@@ -17,3 +17,12 @@ jobs:
           import platform
           print(platform.processor())
         shell: python
+  run-windows-command:
+    runs-on: windows-latest
+    steps:
+      - name: Directory Powershell
+        run: Grt-Location
+      - name: Directorty Bash
+        run: pwd
+        shell: bash
+
