@@ -21,7 +21,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Directory Powershell
-        run: Grt-Location
+        run: Get-Location
       - name: Directorty Bash
         run: pwd
         shell: bash
